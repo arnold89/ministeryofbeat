@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!-- least.js CSS-file -->
+
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Ministery of Beat ®™</title>
+	<meta name="description" content="ministery of beat">
+	<meta name="author" content="www.ministeryofbeat.com">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/responsiveslides.css" />
+	<link href="css/least.min.css" rel="stylesheet" />
+<!-- jQuery libary -->
+<script src="http://code.jquery.com/jquery-latest.js" defer="defer"></script>
+<!-- least.js JS-file -->
+<script src="js/least.min.js" defer="defer"></script>
+<!-- Lazyload JS-file -->
+<script src="js/jquery.lazyload.min.js" defer="defer"></script>
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+	<link href='./images/logo1.ico' rel='icon' type='image/x-icon'/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.js"></script>
+	<script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			maxwidth: 962,
+			namespace: "centered-btns"
+		  });
+		});
+		
+		$(document).ready(function(){
+    $('#gallery').least();
+});
+
+	</script>
+</head>
+<body>
+
+<header>
+	<div class="wrap-header zerogrid">
+		<div id="logo"><a href="http://www.ministeryofbeat.com/">
+			<img src="./images/logo.jpg"/></a></div>
+		
+
+
+		<div id="search">
+			<div class="button-search"></div>
+			<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
+		</div>
+	</div>
+</header>
+
+<nav>
+	<div class="wrap-nav zerogrid">
+		<div class="menu">
+			<ul>
+				<li class="current"><a href="index.html">Inicio</a></li>
+				<li><a href="blog.html">Cursos</a></li>
+				<li><a href="gallery.html">Galeria</a></li>
+				<li><a href="single.html">Renta de Audio</a></li>
+				<li><a href="contact.html">Contacto</a></li>
+			</ul>
+		</div>
+		
+		<div class="minimenu"><div>MENU</div>
+			<select onchange="location=this.value">
+				<option></option>
+				<option value="index.html">Inicio</option>
+				<option value="blog.html">Cursos</option>
+				<option value="gallery.html">Galeria</option>
+				<option value="single.html">Renta de Audio</option>
+				<option value="contact.html">Contacto</option>
+			</select>
+		</div>		
+	</div>
+</nav>
+
+
+<section id="content">
+	<div class="wrap-content zerogrid">
+		<div class="row block03">
+			<div class="col-1-4">
+				<div class="wrap-col">
+					
+</div>
+<!---galeria-->
+<section>
+    <ul id="gallery">
+
+        <li id="fullPreview"></li>
+        
+        <li>
+        <a href="img/full/triangulo.jpg"></a>
+        <img data-original="img/thumb/triangulo.jpg" src="img/effects/white.gif" width="240" height="100" alt="Imagen1" />
+            
+            <div class="overLayer"></div>
+            <div class="infoLayer">
+                <ul>
+                    <li>
+                        <h2>
+                            Imagen 1
+                        </h2>
+                    </li>
+                    <li>
+                        <p>
+                            View Picture
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="projectInfo">
+                <strong>
+                    Day, Month, Year:
+                </strong> sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            </div>
+        </li>
+    </ul>
+</section>
+
+<footer>
+	<div class="wrap-footer zerogrid">
+		<div class="row block09">
+			<div class="col-1-4">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2>Links Directos</h2></div>
+						<div class="content">
+							<div class="tag">
+								<a href="#">Facebook</a>
+								<a href="#">Twitter</a>
+								<a href="#">Instagram</a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-1-4">
+				<div class="wrap-col">
+					<div class="box">
+						<div class="heading"><h2>Contáctanos</h2></div>
+						<div class="content">
+							<ul>
+								<li>Direccion : Toluca </li>
+								<li>Telefono : 000.000.000.000</li>
+								<li>Email : ministeryofbeat@hotmail.com</li>
+								<li>Website : www.ministeryofbeat.com</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row copyright">
+			<p>Yaguaru Team © 2014 - <a href="http://www.google.com" target="_blank">Sistema diseñado </a> por <a href="http://www.google.com" target="_blank">Yagurú.com</a></p>
+		</div>
+	</div>
+</footer>
+
+</body></html>
